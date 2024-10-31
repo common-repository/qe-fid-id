@@ -1,0 +1,25 @@
+.video {
+  max-width: 466px;
+  max-height: 360px;
+}
+
+.canvas {
+  background-color:transparent;
+  top: 0;
+  left: 0;
+  width: 480px;
+  height: 360px;
+  z-index: 10;
+}
+
+.canvas-b {
+  padding:0.15em;
+  display:inline-block;
+  border:none;
+  background-color:transparent;
+  transition:1s;
+}
+
+.canvas-b:hover {
+  background-size: 3px 100%, 100% 3px,3px 100%, 100% 3px ;
+}
